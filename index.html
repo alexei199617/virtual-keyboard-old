@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>Virtual-Keyboard</title>
+</head>
+
+<body>
+    <main>
+        <div class="radio_btn_box">
+            <div class="radio_btn" id="radio_btn">
+                <div class="radio_btn_el radio_activ" id="radio_btn_el_r">РУС</div>
+                <p>|</p>
+                <div class="radio_btn_el" id="radio_btn_el_e">ENG</div>
+            </div>
+        </div>
+
+        <div><textarea class="text_input" id="text_input" type="text"></textarea></div>
+
+        <section class="clava" id="clava">
+            <div class="full_div rus active" id="rus">
+                <div class="div_border">
+                    <!-- 14 верхняя-->
+                    <div class="div_stroka">
+                        <div class="btn">
+                            <p class="centr all">Ё</p>
+                        </div>
+                        <div class="btn">
+                            <p>!</p>
+                            <p class="centr">1</p>
+                        </div>
+                        <div class="btn">
+                            <p>"</p>
+                            <p class="centr">2</p>
+                        </div>
+                        <div class="btn">
+                            <p>№</p>
+                            <p class="centr">3</p>
+                        </div>
+                        <div class="btn">
+                            <p>;</p>
+                            <p class="centr">4</p>
+                        </div>
+                        <div class="btn">
+                            <p>%</p>
+                            <p class="centr">5</p>
+                        </div>
+                        <div class="btn">
+                            <p>:</p>
+                            <p class="centr">6</p>
+                        </div>
+                        <div class="btn">
+                            <p>?</p>
+                            <p class="centr">7</p>
+                        </div>
+                        <div class="btn">
+                            <p>*</p>
+                            <p class="centr">8</p>
+                        </div>
+                        <div class="btn">
+                            <p>(</p>
+                            <p class="centr">9</p>
+                        </div>
+                        <div class="btn">
+                            <p>)</p>
+                            <p class="centr">0</p>
+                        </div>
+                        <div class="btn">
+                            <p>_</p>
+                            <p class="centr">-</p>
+                        </div>
+                        <div class="btn">
+                            <p>+</p>
+                            <p class="centr">=</p>
+                        </div>
+                        <div class="btn btn_duble_width">
+                            <p class="centr all">Backspase</p>
+                        </div>
+                    </div>
+
+                    <!-- 15 вторая-->
+                    <div class="div_stroka">
+                        <div class="btn btn_td">
+                            <p class="centr all">Tab</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Й</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Ц</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">У</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">К</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Е</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Н</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Г</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Ш</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Щ</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">З</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Х</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Ъ</p>
+                        </div>
+                        <div class="btn">
+                            <p>/</p>
+                            <p class="centr">\</p>
+                        </div>
+                        <div class="btn btn_td">
+                            <p class="centr all">Del</p>
+                        </div>
+                    </div>
+
+                    <!-- 13 третья-->
+                    <div class="div_stroka">
+                        <div class="btn btn_duble_width">
+                            <p class="centr all">Caps Lock</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Ф</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Ы</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">В</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">А</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">П</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Р</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">О</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Л</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Д</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Ж</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Э</p>
+                        </div>
+                        <div class="btn btn_duble_width">
+                            <p class="centr all">Enter</p>
+                        </div>
+                    </div>
+
+                    <!-- 14 четвёртая-->
+                    <div class="div_stroka">
+                        <div class="btn btn_duble_width">
+                            <p class="centr all">Shift
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">\</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Я</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Ч</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">С</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">М</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">И</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Т</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Ь</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Б</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Ю</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">/</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">↑</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Shift</p>
+                        </div>
+                    </div>
+
+                    <!-- 9 нижняя-->
+                    <div class="div_stroka">
+                        <div class="btn btn_ctrl">
+                            <p class="centr all">Ctrl</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Win</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Alt</p>
+                        </div>
+                        <div class="btn btn_space">
+                            <p class="centr all">Space</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Alt</p>
+                        </div>
+                        <div class="btn btn_ctrl">
+                            <p class="centr all">Ctrl</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">←</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">↓</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">→</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="full_div eng" id="eng">
+                <div class="div_border">
+                    <!-- 14 верхняя-->
+                    <div class="div_stroka">
+                        <div class="btn">
+                            <p>~</p>
+                            <p class="centr">`</p>
+                        </div>
+                        <div class="btn">
+                            <p>!</p>
+                            <p class="centr">1</p>
+                        </div>
+                        <div class="btn">
+                            <p>@</p>
+                            <p class="centr">2</p>
+                        </div>
+                        <div class="btn">
+                            <p>#</p>
+                            <p class="centr">3</p>
+                        </div>
+                        <div class="btn">
+                            <p>$</p>
+                            <p class="centr">4</p>
+                        </div>
+                        <div class="btn">
+                            <p>%</p>
+                            <p class="centr">5</p>
+                        </div>
+                        <div class="btn">
+                            <p>^</p>
+                            <p class="centr">6</p>
+                        </div>
+                        <div class="btn">
+                            <p>&</p>
+                            <p class="centr">7</p>
+                        </div>
+                        <div class="btn">
+                            <p>*</p>
+                            <p class="centr">8</p>
+                        </div>
+                        <div class="btn">
+                            <p>(</p>
+                            <p class="centr">9</p>
+                        </div>
+                        <div class="btn">
+                            <p>)</p>
+                            <p class="centr">0</p>
+                        </div>
+                        <div class="btn">
+                            <p>_</p>
+                            <p class="centr">-</p>
+                        </div>
+                        <div class="btn">
+                            <p>+</p>
+                            <p class="centr">=</p>
+                        </div>
+                        <div class="btn btn_duble_width">
+                            <p class="centr all">Backspase</p>
+                        </div>
+                    </div>
+
+                    <!-- 15 вторая-->
+                    <div class="div_stroka">
+                        <div class="btn btn_td">
+                            <p class="centr all">Tab
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Q</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">W</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">E</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">R</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">T</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Y</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">U</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">I</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">O</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">P</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">[</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">]</p>
+                        </div>
+                        <div class="btn">
+                            <p>/</p>
+                            <p class="centr">\</p>
+                        </div>
+                        <div class="btn btn_td">
+                            <p class="centr all">Del</p>
+                        </div>
+                    </div>
+
+                    <!-- 13 третья-->
+                    <div class="div_stroka">
+                        <div class="btn btn_duble_width">
+                            <p class="centr all">Caps Lock</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">A</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">S</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">D</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">F</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">G</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">H</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">J</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">K</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">L</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">;</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">'</p>
+                        </div>
+                        <div class="btn btn_duble_width">
+                            <p class="centr all">Enter</p>
+                        </div>
+                    </div>
+
+                    <!-- 14 четвёртая-->
+                    <div class="div_stroka">
+                        <div class="btn btn_duble_width">
+                            <p class="centr all">Shift
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">\</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Z</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">X</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">C</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">V</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">B</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">N</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">M</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">.</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">,</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">/</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">↑</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Shift</p>
+                        </div>
+                    </div>
+
+                    <!-- 9 нижняя-->
+                    <div class="div_stroka">
+                        <div class="btn btn_ctrl">
+                            <p class="centr all">Ctrl</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Win</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Alt</p>
+                        </div>
+                        <div class="btn btn_space">
+                            <p class="centr all">Space</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">Alt</p>
+                        </div>
+                        <div class="btn btn_ctrl">
+                            <p class="centr all">Ctrl</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">←</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">↓</p>
+                        </div>
+                        <div class="btn">
+                            <p class="centr all">→</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="dev_os">
+            <p class="dev_os_wind">Developed for Windows.</p>
+            <p class="byme">Made on Gromotron</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

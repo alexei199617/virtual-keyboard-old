@@ -1,0 +1,147 @@
+ul {
+    padding: 0;
+}
+
+body, h1, h2, h3, h4, p, ul, ol[class], li, figure, figcaption, blockquote, dl, dd, html {
+    margin: 0;
+}
+
+ul[class],
+ol[class] {
+    list-style: none;
+}
+
+html {
+    font-family: 'Lato', sans-serif;
+    margin: 0 auto;
+    max-width: 1020px;
+    background-color: #ADD8E6;
+}
+
+main {
+    background-color: #48D1CC;
+    height: 876px;
+}
+
+.radio_btn_box {
+    padding: 1px;
+}
+.radio_btn {
+    border-radius: 7px;
+    width: 90px;
+    height: 20px;
+    display: flex;
+    border: 1px solid black;
+    align: right;
+    text-align: right;
+    margin: 38px 0 0 900px;
+    background-color: #D3D3D3;
+    overflow: hidden;
+}
+
+.radio_btn_el {
+    padding: 2px 5px 2px 5px;
+    cursor: pointer;
+}
+
+.radio_activ {
+    background-color: #87CEEB;
+}
+.radio_btn_el:hover {
+    background-color: #87CEEB;
+}
+
+.text_input {
+    margin-top: 70px;
+    margin-left: 102px;
+    width: 810px;
+    height: 125px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.full_div {
+    margin-left: 102px;
+    margin-top: 20px;
+    display: none;
+}
+
+.btn {
+    width: 40px;
+    height: 40px;
+    background-color: #00539C;
+    color: white;
+    margin: 7px;
+    border-radius: 5px;
+    padding: 3px 0 0 3px;
+}
+
+.btn:hover {
+    background-color: #4682B4;
+    cursor: pointer;
+}
+.btn:active {
+    background-color: #87CEEB;
+    border-radius: 10px;
+}
+
+.div_stroka {
+    background-color: #191970;
+    display: flex;
+    width: 816px;
+    font-size: 12px;
+}
+.div_border {
+    border-radius: 10px;
+    width: 816px;
+    overflow: hidden;
+}
+
+.btn_duble_width {
+    width: 100px;
+}
+
+.btn_td {
+    width: 43px;
+}
+
+.btn_ctrl {
+    width: 60px;
+}
+
+.btn_space {
+    width: 330px;
+}
+
+.centr {
+    text-align: center;
+    font-size: 16px;
+}
+
+.all {
+    margin: 10px auto 10px;
+}
+
+.active {
+    display: block;
+}
+
+.dev_os {
+    height: 40px;
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #2E8B57;
+    color: #191970;
+}
+.dev_os_wind {
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 700;
+}
+.byme {
+    padding: 0;
+    font-weight: 200;
+    size: 3px;
+    text-align: right;
+}
